@@ -40,14 +40,9 @@
   "dependencies": {
     "funargs": "latest",
     "sugar": "latest",
-    "node-document-storage": "0.1.0-pre1"
+    "node-document-storage": "0.1.0-pre2"
   },
   "devDependencies": {
-    "mocha": "latest",
-    "chai": "latest",
-    "cover": "latest",
-    "node-inspector": "latest",
-    "longjohn": "latest",
-    "colors": "latest"
+    "mocha": "latest"
   }
 }
