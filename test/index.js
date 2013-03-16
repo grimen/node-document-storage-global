@@ -8,6 +8,8 @@ var Storage = require('node-document-storage');
 module.exports = Storage.Spec('Global', {
   module: require('..'),
   engine: global,
+  id: 'global',
+  protocol: null,
   db: 'default-test',
   default_url: 'global:///default-test',
   authorized_url: undefined,
